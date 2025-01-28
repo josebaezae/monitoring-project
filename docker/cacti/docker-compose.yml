@@ -1,0 +1,5 @@
+    services:
+      cacti:
+        image: cacti/cacti:latest
+        ports:
+          - "8081:80"
